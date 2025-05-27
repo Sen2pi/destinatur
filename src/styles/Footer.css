@@ -1,0 +1,43 @@
+.footer {
+  background: linear-gradient(135deg, #2E8B7A 0%, #40B5A8 100%);
+  color: white;
+  padding: 2rem 0 1rem 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #F4D03F;
+}
+
+.footer-info p {
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.footer-bottom p {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0 1rem 0;
+  }
+  
+  .footer-info h3 {
+    font-size: 1.3rem;
+  }
+}

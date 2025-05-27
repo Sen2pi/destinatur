@@ -17,7 +17,7 @@ const TripDetails = () => {
       images: tripImages.geres, // Usar imagens locais
       price: "Desde 29,90€",
       originalPrice: "—",
-      duration: "3 dias",
+      duration: "1 dia",
       rating: 4.9,
       reviews: 102,
       includes: ["Transporte em autocarro", "Seguro de viagem", "Guia acompanhante"],
@@ -28,8 +28,8 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Saída de Braga", description: "Partida de manhã rumo ao Parque Nacional Peneda-Gerês." },
-        { day: 2, title: "Exploração e trilhos", description: "Paragens em pontos turísticos, cascatas e trilhos acessíveis." },
-        { day: 3, title: "Regresso", description: "Regresso a Braga ao final do dia." }
+        { day: 1, title: "Exploração e trilhos", description: "Paragens em pontos turísticos, cascatas e trilhos acessíveis." },
+        { day: 1, title: "Regresso", description: "Regresso a Braga ao final do dia." }
       ]
     },
     2: {
@@ -40,7 +40,7 @@ const TripDetails = () => {
       images: tripImages.eden, // Usar imagens locais
       price: "Desde 39,90€",
       originalPrice: "—",
-      duration: "5 dias",
+      duration: "1 dia",
       rating: 4.7,
       reviews: 87,
       includes: ["Transporte em autocarro", "Seguro de viagem", "Guia acompanhante", "Entrada na Bacalhôa", "Comboio turístico"],
@@ -53,10 +53,10 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Saída de Braga", description: "Partida às 6h da manhã do E.Leclerc Braga em direção à Bacalhôa, Bombarral." },
-        { day: 2, title: "Visita à Bacalhôa", description: "Entrada incluída na Quinta da Bacalhôa com visita aos jardins e espaços culturais." },
-        { day: 3, title: "Passeio de Comboio Turístico", description: "Explora o Jardim dos Budas a bordo do comboio turístico." },
-        { day: 4, title: "Tempo Livre e Almoço", description: "Almoço livre (não incluído) e tempo para explorar os arredores com tranquilidade." },
-        { day: 5, title: "Regresso", description: "Regresso a Braga no final da tarde com memórias inesquecíveis." }
+        { day: 1, title: "Visita à Bacalhôa", description: "Entrada incluída na Quinta da Bacalhôa com visita aos jardins e espaços culturais." },
+        { day: 1, title: "Passeio de Comboio Turístico", description: "Explora o Jardim dos Budas a bordo do comboio turístico." },
+        { day: 1, title: "Tempo Livre e Almoço", description: "Almoço livre (não incluído) e tempo para explorar os arredores com tranquilidade." },
+        { day: 1, title: "Regresso", description: "Regresso a Braga no final da tarde com memórias inesquecíveis." }
       ]
     },
     3: {
@@ -67,7 +67,7 @@ const TripDetails = () => {
       images: tripImages.vigo, // Usar imagens locais
       price: "Desde 34,90€",
       originalPrice: "49,99€",
-      duration: "3 dias",
+      duration: "1 dia",
       rating: 4.5,
       reviews: 52,
       includes: ["Transporte em autocarro", "Seguro de viagem", "Guia acompanhante"],
@@ -78,8 +78,8 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Saída de Braga", description: "Partida de manhã com destino a Vigo." },
-        { day: 2, title: "Tempo livre", description: "Explora a cidade, faz compras ou passeia pela zona costeira." },
-        { day: 3, title: "Regresso", description: "Regresso a Braga ao final do dia." }
+        { day: 1, title: "Tempo livre", description: "Explora a cidade, faz compras ou passeia pela zona costeira." },
+        { day: 1, title: "Regresso", description: "Regresso a Braga ao final do dia." }
       ]
     },
     4: {
@@ -90,7 +90,7 @@ const TripDetails = () => {
       images: tripImages.pontevedra, // Usar imagens locais
       price: "Desde 34,90€",
       originalPrice: "—",
-      duration: "3 dias",
+      duration: "1 dia",
       rating: 4.6,
       reviews: 41,
       includes: ["Transporte em autocarro", "Seguro de viagem", "Guia acompanhante"],
@@ -101,8 +101,8 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Saída de Braga", description: "Partida de manhã com destino a Pontevedra." },
-        { day: 2, title: "Visita e tempo livre", description: "Explora o centro histórico e desfruta da gastronomia local." },
-        { day: 3, title: "Regresso", description: "Regresso a Braga ao final do dia." }
+        { day: 1, title: "Visita e tempo livre", description: "Explora o centro histórico e desfruta da gastronomia local." },
+        { day: 1, title: "Regresso", description: "Regresso a Braga ao final do dia." }
       ]
     },
     5: {
@@ -113,7 +113,7 @@ const TripDetails = () => {
       images: tripImages.santiago, // Usar imagens locais
       price: "Desde 39,90€",
       originalPrice: "—",
-      duration: "3 dias",
+      duration: "1 dia",
       rating: 4.8,
       reviews: 68,
       includes: ["Transporte em autocarro", "Seguro de viagem", "Guia acompanhante"],
@@ -124,8 +124,8 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Saída de Braga", description: "Partida de manhã com destino a Santiago de Compostela." },
-        { day: 2, title: "Visita à cidade", description: "Explora o centro histórico e a catedral (entrada livre)." },
-        { day: 3, title: "Regresso", description: "Regresso a Braga ao final do dia." }
+        { day: 1, title: "Visita à cidade", description: "Explora o centro histórico e a catedral (entrada livre)." },
+        { day: 1, title: "Regresso", description: "Regresso a Braga ao final do dia." }
       ]
     },
         6: {
@@ -136,7 +136,7 @@ const TripDetails = () => {
       images: tripImages.grove, // Usar imagens diferentes para o segundo Gerês
       price: "Desde 34,90€",
       originalPrice: "—", 
-      duration: "3 dias",
+      duration: "1 dia",
       rating: 4.7,
       reviews: 55,
       includes: ["Transporte em autocarro", "Seguro de viagem", "Guia acompanhante"],
@@ -147,8 +147,8 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Saída de Braga", description: "Partida de manhã com destino a O Grove." },
-        { day: 2, title: "Exploração da vila", description: "Tempo livre para passear pelas ruas e desfrutar das praias." },
-        { day: 3, title: "Regresso", description: "Regresso a Braga ao final do dia." }
+        { day: 1, title: "Exploração da vila", description: "Tempo livre para passear pelas ruas e desfrutar das praias." },
+        { day: 1, title: "Regresso", description: "Regresso a Braga ao final do dia." }
       ]
     }
   };

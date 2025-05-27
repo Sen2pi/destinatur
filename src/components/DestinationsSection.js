@@ -10,11 +10,11 @@ const DestinationsSection = () => {
   const destinations = [
     {
       id: 1,
-      name: "Braga – Gerês",
+      name: "Gerês",
       description: "Natureza, trilhos e paisagens deslumbrantes",
       image: tripImages.geres[0], // Primeira imagem do Gerês
       price: "Desde 29,90€",
-      duration: "3 dias",
+      duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]
     },
     {
@@ -23,25 +23,25 @@ const DestinationsSection = () => {
       description: "Escapadinha única à zona da Bacalhôa",
       image: tripImages.eden[0], // Primeira imagem do Éden
       price: "Desde 39,90€",
-      duration: "5 dias",
+      duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia", "Entrada"]
     },
     {
       id: 3,
-      name: "Braga – Vigo",
+      name: "Vigo",
       description: "Cidade costeira com paisagens e compras",
       image: tripImages.vigo[0], // Primeira imagem de Vigo
       price: "Desde 34,90€",
-      duration: "3 dias",
+      duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]
     },
     {
       id: 4,
-      name: "Braga – Pontevedra",
+      name: "Pontevedra",
       description: "Charme histórico e cultura galega",
       image: tripImages.pontevedra[0], // Primeira imagem de Pontevedra
       price: "Desde 34,90€",
-      duration: "3 dias",
+      duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]
     },
     {
@@ -50,7 +50,7 @@ const DestinationsSection = () => {
       description: "Destino de peregrinação e beleza espiritual",
       image: tripImages.santiago[0], // Primeira imagem de Santiago
       price: "Desde 39,90€",
-      duration: "3 dias",
+      duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]
     },
     {
@@ -59,7 +59,7 @@ const DestinationsSection = () => {
       description: "Praias paradisíacas e gastronomia de marisco",  
       image: tripImages.grove[0], // Primeira imagem de O Grove
       price: "Desde 29,90€",
-      duration: "3 dias",
+      duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]
     }
   ];

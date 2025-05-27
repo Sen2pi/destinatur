@@ -16,9 +16,15 @@ function HomePage() {
         <h1>Entre em Contacto Connosco</h1>
         <p>Transformamos os seus sonhos de viagem em realidade. Contacte-nos para planear a sua próxima aventura!</p>
       </section>
-      <SearchWidget /> {/* Novo componente */}
-      <DestinationsSection />
-      <ContactForm />
+      <div id="pesquisa">
+        <SearchWidget />
+      </div>
+      <div id="destinos">
+        <DestinationsSection />
+      </div>
+      <div id="contacto">
+        <ContactForm />
+      </div>
       <SocialButtons />
     </>
   );

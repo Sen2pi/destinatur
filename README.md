@@ -2,9 +2,6 @@
 
 # Destinatur - Agência de Viagens 🌍
 
-[
-[
-[
 
 Um site moderno e responsivo para a agência de viagens Destinatur, desenvolvido em React com páginas de detalhes de viagens e sistema de contacto integrado.
 

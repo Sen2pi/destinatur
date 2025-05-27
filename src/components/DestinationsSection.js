@@ -39,7 +39,7 @@ const DestinationsSection = () => {
       id: 4,
       name: "Pontevedra",
       description: "Charme histórico e cultura galega",
-      image: tripImages.pontevedra[0], // Primeira imagem de Pontevedra
+      image: tripImages.pontevedra[1], // Primeira imagem de Pontevedra
       price: "Desde 34,90€",
       duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]
@@ -57,7 +57,7 @@ const DestinationsSection = () => {
       id: 6,
       name: "O Grove",
       description: "Praias paradisíacas e gastronomia de marisco",  
-      image: tripImages.grove[0], // Primeira imagem de O Grove
+      image: tripImages.grove[1], // Primeira imagem de O Grove
       price: "Desde 29,90€",
       duration: "1 dia",
       includes: ["Transporte", "Seguro", "Guia"]

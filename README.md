@@ -1,10 +1,7 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+<img src="./logo.png" class="logo" width="120"/>
 
 # Destinatur - Agência de Viagens 🌍
 
-[
-[
-[
 
 Um site moderno e responsivo para a agência de viagens Destinatur, desenvolvido em React com páginas de detalhes de viagens e sistema de contacto integrado.
 

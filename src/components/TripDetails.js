@@ -45,7 +45,7 @@ const TripDetails = () => {
       name: "Cabo Verde",
       location: "Sal e Santiago",
       description: "Ilhas africanas com cultura única, música envolvente e paisagens vulcânicas deslumbrantes.",
-      longDescription: "Cabo Verde é um arquipélago de beleza única, onde a cultura africana se mistura com influências portuguesas. Desfrute das praias de Santa Maria, explore a rica história de Santiago e deixe-se envolver pela música tradicional cabo-verdiana.",
+      longDescription: "Cabo Verde é um arquipélago de beleza única, onde a cultura africana se mistura com influências portuguesas. Desfrute das praias de Santa Maria na ilha do Sal, explore a rica história de Santiago e deixe-se envolver pela música tradicional cabo-verdiana. As ilhas oferecem contrastes únicos entre paisagens áridas e vales verdejantes.",
       images: [
         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
@@ -66,11 +66,11 @@ const TripDetails = () => {
       ],
       itinerary: [
         { day: 1, title: "Chegada a Sal", description: "Chegada ao aeroporto de Sal e transfer para o hotel." },
-        { day: 2, title: "Praia de Santa Maria", description: "Exploração da famosa praia de Santa Maria." },
-        { day: 3, title: "Tour pela Ilha", description: "Visita aos pontos turísticos da ilha do Sal." },
-        { day: 4, title: "Viagem para Santiago", description: "Voo interno para Santiago e city tour." },
+        { day: 2, title: "Praia de Santa Maria", description: "Exploração da famosa praia de Santa Maria e centro da vila." },
+        { day: 3, title: "Tour pela Ilha do Sal", description: "Visita às salinas de Pedra Lume e Buracona." },
+        { day: 4, title: "Viagem para Santiago", description: "Voo interno para Santiago e city tour pela Praia." },
         { day: 5, title: "Cidade Velha", description: "Visita à histórica Cidade Velha, Património da UNESCO." },
-        { day: 6, title: "Cultura Local", description: "Experiência cultural com música e dança tradicional." },
+        { day: 6, title: "Cultura Local", description: "Experiência cultural com música morna e dança tradicional." },
         { day: 7, title: "Partida", description: "Transfer para o aeroporto e voo de regresso." }
       ]
     },
@@ -78,7 +78,7 @@ const TripDetails = () => {
       name: "Madeira",
       location: "Funchal, Portugal",
       description: "A pérola do Atlântico com paisagens exuberantes, levadas históricas e clima subtropical.",
-      longDescription: "A Madeira é um destino único que combina natureza exuberante, cultura rica e hospitalidade portuguesa. Explore as famosas levadas, desfrute do clima ameno durante todo o ano e saboreie o famoso vinho da Madeira.",
+      longDescription: "A Madeira é um destino único que combina natureza exuberante, cultura rica e hospitalidade portuguesa. Explore as famosas levadas, desfrute do clima ameno durante todo o ano e saboreie o famoso vinho da Madeira. A ilha oferece jardins botânicos deslumbrantes, miradouros panorâmicos e uma gastronomia única.",
       images: [
         "https://images.unsplash.com/photo-1580501170888-80668882ca0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
@@ -98,10 +98,107 @@ const TripDetails = () => {
         "Clima subtropical agradável"
       ],
       itinerary: [
-        { day: 1, title: "Chegada ao Funchal", description: "Chegada ao aeroporto e city tour pelo Funchal." },
-        { day: 2, title: "Levadas e Natureza", description: "Caminhada pelas famosas levadas da Madeira." },
-        { day: 3, title: "Jardins e Miradouros", description: "Visita aos jardins botânicos e miradouros panorâmicos." },
-        { day: 4, title: "Partida", description: "Manhã livre e transfer para o aeroporto." }
+        { day: 1, title: "Chegada ao Funchal", description: "Chegada ao aeroporto e city tour pelo Funchal histórico." },
+        { day: 2, title: "Levadas e Natureza", description: "Caminhada pelas famosas levadas e visita aos jardins botânicos." },
+        { day: 3, title: "Cabo Girão e Porto Moniz", description: "Visita ao skywalk do Cabo Girão e piscinas naturais de Porto Moniz." },
+        { day: 4, title: "Partida", description: "Manhã livre para compras e transfer para o aeroporto." }
+      ]
+    },
+    4: {
+      name: "Açores",
+      location: "São Miguel, Portugal",
+      description: "Natureza selvagem e paisagens vulcânicas num paraíso no meio do Atlântico.",
+      longDescription: "Os Açores são um arquipélago português no meio do Atlântico, conhecido pelas suas paisagens vulcânicas dramáticas, lagoas de crateras, fontes termais e natureza intocada. São Miguel, a maior ilha, oferece uma combinação perfeita de aventura e relaxamento, com as famosas Sete Cidades e as termas da Furnas.",
+      images: [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+      ],
+      price: "desde 261€",
+      originalPrice: "380€",
+      duration: "4 noites",
+      rating: 4.7,
+      reviews: 178,
+      includes: ["Voo", "Hotel", "Transfer", "Seguro"],
+      highlights: [
+        "Lagoas das Sete Cidades",
+        "Termas naturais da Furnas",
+        "Observação de baleias e golfinhos",
+        "Trilhos de caminhada únicos",
+        "Gastronomia açoriana autêntica"
+      ],
+      itinerary: [
+        { day: 1, title: "Chegada a São Miguel", description: "Chegada a Ponta Delgada e tour pela cidade histórica." },
+        { day: 2, title: "Sete Cidades", description: "Visita às famosas lagoas das Sete Cidades e miradouros." },
+        { day: 3, title: "Furnas", description: "Exploração das termas da Furnas e degustação do cozido das caldeiras." },
+        { day: 4, title: "Observação de Baleias", description: "Passeio de barco para observação de baleias e golfinhos." },
+        { day: 5, title: "Partida", description: "Manhã livre e transfer para o aeroporto." }
+      ]
+    },
+    5: {
+      name: "Marrocos",
+      location: "Marraquexe e Fez",
+      description: "Cultura exótica e cidades imperiais numa viagem através de mil e uma noites.",
+      longDescription: "Marrocos é um país fascinante que combina tradição e modernidade, onde as cidades imperiais de Marraquexe e Fez oferecem uma experiência cultural única. Explore os souks coloridos, admire a arquitetura islâmica, saboreie a gastronomia local e aventure-se no deserto do Saara para uma experiência verdadeiramente mágica.",
+      images: [
+        "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+      ],
+      price: "desde 495€",
+      originalPrice: "699€",
+      duration: "7 noites",
+      rating: 4.5,
+      reviews: 203,
+      includes: ["Voo", "Hotel", "Transfer", "Seguro"],
+      highlights: [
+        "Cidades imperiais de Marraquexe e Fez",
+        "Souks tradicionais e medinas históricas",
+        "Excursão opcional ao deserto do Saara",
+        "Arquitetura islâmica deslumbrante",
+        "Gastronomia marroquina autêntica"
+      ],
+      itinerary: [
+        { day: 1, title: "Chegada a Marraquexe", description: "Chegada ao aeroporto e tour pela Praça Jemaa el-Fna." },
+        { day: 2, title: "Marraquexe Imperial", description: "Visita aos Jardins de Majorelle, Palácio da Bahia e Mesquita Koutoubia." },
+        { day: 3, title: "Souks e Medina", description: "Exploração dos souks tradicionais e da medina histórica." },
+        { day: 4, title: "Viagem para Fez", description: "Transfer para Fez via montanhas do Atlas Médio." },
+        { day: 5, title: "Fez Imperial", description: "Tour pela medina de Fez, Universidade Al Quaraouiyine e curtumes." },
+        { day: 6, title: "Meknes e Volubilis", description: "Excursão a Meknes e às ruínas romanas de Volubilis." },
+        { day: 7, title: "Partida", description: "Transfer para o aeroporto de Fez e voo de regresso." }
+      ]
+    },
+    6: {
+      name: "Brasil",
+      location: "Rio de Janeiro e Salvador",
+      description: "Praias tropicais e cultura vibrante na terra do samba e da capoeira.",
+      longDescription: "O Brasil oferece uma experiência cultural única com suas praias deslumbrantes, música contagiante e povo acolhedor. Descubra o Rio de Janeiro com o Cristo Redentor e Copacabana, explore Salvador com sua rica herança afro-brasileira, e mergulhe na cultura brasileira através da música, dança e gastronomia incomparáveis.",
+      images: [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+      ],
+      price: "desde 1032€",
+      originalPrice: "1450€",
+      duration: "7 noites",
+      rating: 4.8,
+      reviews: 142,
+      includes: ["Voo", "Hotel", "Transfer", "Seguro"],
+      highlights: [
+        "Cristo Redentor e Pão de Açúcar no Rio",
+        "Praias de Copacabana e Ipanema",
+        "Centro histórico de Salvador (Pelourinho)",
+        "Cultura afro-brasileira autêntica",
+        "Gastronomia brasileira diversificada"
+      ],
+      itinerary: [
+        { day: 1, title: "Chegada ao Rio", description: "Chegada ao Rio de Janeiro e tour panorâmico pela cidade." },
+        { day: 2, title: "Cristo Redentor", description: "Visita ao Cristo Redentor no Corcovado e praias de Copacabana." },
+        { day: 3, title: "Pão de Açúcar", description: "Passeio de bondinho ao Pão de Açúcar e Santa Teresa." },
+        { day: 4, title: "Voo para Salvador", description: "Voo interno para Salvador e tour pelo Pelourinho." },
+        { day: 5, title: "Salvador Histórica", description: "Exploração do centro histórico e mercado modelo." },
+        { day: 6, title: "Cultura Baiana", description: "Experiência cultural com capoeira, samba e culinária baiana." },
+        { day: 7, title: "Partida", description: "Manhã livre nas praias de Salvador e voo de regresso." }
       ]
     }
   };

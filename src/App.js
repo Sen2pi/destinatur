@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import ContactForm from './components/ContactForm';
 import DestinationsSection from './components/DestinationsSection';
+import SearchWidget from './components/SearchWidget'; // Novo import
 import SocialButtons from './components/SocialButtons';
 import Footer from './components/Footer';
 import TripDetails from './components/TripDetails';
@@ -15,6 +16,7 @@ function HomePage() {
         <h1>Entre em Contacto Connosco</h1>
         <p>Transformamos os seus sonhos de viagem em realidade. Contacte-nos para planear a sua próxima aventura!</p>
       </section>
+      <SearchWidget /> {/* Novo componente */}
       <DestinationsSection />
       <ContactForm />
       <SocialButtons />

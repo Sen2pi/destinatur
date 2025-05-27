@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaPlane, FaUmbrellaBeach, FaMapMarkedAlt, FaHeart } from 'react-icons/fa';
+import { tripImages } from '../assets/images';
 import '../styles/DestinationsSection.css';
 
 const DestinationsSection = () => {
@@ -9,89 +10,94 @@ const DestinationsSection = () => {
   const destinations = [
     {
       id: 1,
-      name: "Caraíbas",
-      description: "Praias paradisíacas e águas cristalinas",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      price: "desde 899€",
-      duration: "7 noites",
-      includes: ["Voo", "Hotel", "Transfer", "Seguro"]
+      name: "Braga – Gerês",
+      description: "Natureza, trilhos e paisagens deslumbrantes",
+      image: tripImages.geres[0], // Primeira imagem do Gerês
+      price: "Desde 29,90€",
+      duration: "3 dias",
+      includes: ["Transporte", "Seguro", "Guia"]
     },
     {
       id: 2,
-      name: "Cabo Verde",
-      description: "Ilhas africanas com cultura única",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      price: "desde 716€",
-      duration: "7 noites",
-      includes: ["Voo", "Hotel", "Transfer", "Seguro"]
+      name: "Jardim do Éden",
+      description: "Escapadinha única à zona da Bacalhôa",
+      image: tripImages.eden[0], // Primeira imagem do Éden
+      price: "Desde 39,90€",
+      duration: "5 dias",
+      includes: ["Transporte", "Seguro", "Guia", "Entrada"]
     },
     {
       id: 3,
-      name: "Madeira",
-      description: "A pérola do Atlântico",
-      image: "https://images.unsplash.com/photo-1580501170888-80668882ca0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      price: "desde 337€",
-      duration: "3 noites",
-      includes: ["Voo", "Hotel", "Transfer", "Seguro"]
+      name: "Braga – Vigo",
+      description: "Cidade costeira com paisagens e compras",
+      image: tripImages.vigo[0], // Primeira imagem de Vigo
+      price: "Desde 34,90€",
+      duration: "3 dias",
+      includes: ["Transporte", "Seguro", "Guia"]
     },
     {
       id: 4,
-      name: "Açores",
-      description: "Natureza selvagem e paisagens vulcânicas",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      price: "desde 261€",
-      duration: "4 noites",
-      includes: ["Voo", "Hotel", "Transfer", "Seguro"]
+      name: "Braga – Pontevedra",
+      description: "Charme histórico e cultura galega",
+      image: tripImages.pontevedra[0], // Primeira imagem de Pontevedra
+      price: "Desde 34,90€",
+      duration: "3 dias",
+      includes: ["Transporte", "Seguro", "Guia"]
     },
     {
       id: 5,
-      name: "Marrocos",
-      description: "Cultura exótica e cidades imperiais",
-      image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      price: "desde 495€",
-      duration: "7 noites",
-      includes: ["Voo", "Hotel", "Transfer", "Seguro"]
+      name: "Santiago de Compostela",
+      description: "Destino de peregrinação e beleza espiritual",
+      image: tripImages.santiago[0], // Primeira imagem de Santiago
+      price: "Desde 39,90€",
+      duration: "3 dias",
+      includes: ["Transporte", "Seguro", "Guia"]
     },
     {
       id: 6,
-      name: "Brasil",
-      description: "Praias tropicais e cultura vibrante",
-      image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      price: "desde 1032€",
-      duration: "7 noites",
-      includes: ["Voo", "Hotel", "Transfer", "Seguro"]
+      name: "O Grove",
+      description: "Praias paradisíacas e gastronomia de marisco",  
+      image: tripImages.grove[0], // Primeira imagem de O Grove
+      price: "Desde 29,90€",
+      duration: "3 dias",
+      includes: ["Transporte", "Seguro", "Guia"]
     }
   ];
 
   const packages = [
     {
       icon: <FaUmbrellaBeach />,
-      title: "Tudo Incluído",
-      description: "Pacotes completos com alimentação, bebidas e atividades incluídas",
+      title: "Excursões de Dia",
+      description: "Viagens de um dia com tudo incluído para destinos próximos",
       color: "#40B5A8"
     },
     {
       icon: <FaPlane />,
-      title: "Voo + Hotel",
-      description: "Combinações perfeitas de voo e alojamento aos melhores preços",
+      title: "Transporte + Guia",
+      description: "Combinações perfeitas de transporte e acompanhamento",
       color: "#F4D03F"
     },
     {
       icon: <FaMapMarkedAlt />,
-      title: "Circuitos",
-      description: "Viagens organizadas para descobrir múltiplos destinos",
+      title: "Circuitos Regionais",
+      description: "Descoberta de múltiplos destinos na região Norte",
       color: "#40B5A8"
     },
     {
       icon: <FaHeart />,
-      title: "Lua de Mel",
-      description: "Experiências românticas para casais em destinos únicos",
+      title: "Experiências Únicas",
+      description: "Momentos especiais em locais históricos e naturais",
       color: "#F4D03F"
     }
   ];
 
   const handleDestinationClick = (destinationId) => {
     navigate(`/viagem/${destinationId}`);
+  };
+
+  const handleCTAClick = () => {
+    const message = "Olá! Gostaria de solicitar um orçamento para uma viagem. Podem ajudar-me?";
+    window.open(`https://wa.me/351923539713?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
@@ -133,7 +139,7 @@ const DestinationsSection = () => {
         </div>
       </div>
 
-      {/* Resto do componente permanece igual */}
+      {/* Tipos de Pacotes */}
       <div className="packages-container">
         <h2>Tipos de Pacotes</h2>
         <p className="section-subtitle">Escolha o tipo de viagem que mais se adequa a si</p>
@@ -151,10 +157,13 @@ const DestinationsSection = () => {
         </div>
       </div>
 
+      {/* Call to Action */}
       <div className="cta-section">
         <h2>Pronto para a Sua Próxima Aventura?</h2>
         <p>Contacte-nos para criar o pacote de viagem perfeito para si</p>
-        <button className="cta-btn">Solicitar Orçamento</button>
+        <button className="cta-btn" onClick={handleCTAClick}>
+          Solicitar Orçamento
+        </button>
       </div>
     </section>
   );
